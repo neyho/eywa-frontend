@@ -70,6 +70,7 @@ However, this requires significant effort and, at this point, we haven’t recei
 sufficient feedback indicating that this is a priority for the community.
 
 If you find **EYWA** and its ecosystem relevant, we’d love your support!  
-- **Star this repository** or [EYWA Core](#) to show interest and help us prioritize.
+- **Star this repository** or [EYWA Core](https://github.com/neyho/eywa-core)
+to show interest and help us prioritize.
 
 For those looking to explore, [Toddler](https://github.com/gersak/toddler) is a great place to start!
