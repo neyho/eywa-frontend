@@ -1,6 +1,6 @@
 # EYWA Frontend
 
-This repo contains **free and not** opensourced EYWA frontend. Repo can be cloned and served with
+This repo contains **free and not opensourced** EYWA frontend. Repo can be cloned and served with
 EYWA Core by specifying
 
 ```
@@ -51,3 +51,25 @@ to see how to connect to EYWA through cli and how to run scripts.
 EYWA frontend client uses _react-oidc-context_ library to authenticate user. _react-oidc-context_
 doesn't allow http OIDC endpoints as OIDC specification explicitly requires TLS. Only ```http://localhost```
 and ```http://127.0.0.1``` are allowed.
+
+
+# Why not opensource?
+
+### Timing Isn't Right
+Our frontend codebase is currently around **30k lines of code**.
+It’s an internal tool with limited documentation,
+containing advanced concepts closely tied to **EYWA Core**, such as:
+
+- **Modeling** - Not just ERD Data models
+- **EYWA DB** -  which tracks differences between remote and 
+local states while offering built-in operations like 
+stack/slice/delete GraphQL mutations directly through client-side commits.
+
+For a better development experience, these concepts need to be **isolated** and **well-documented**.
+However, this requires significant effort and, at this point, we haven’t received
+sufficient feedback indicating that this is a priority for the community.
+
+If you find **EYWA** and its ecosystem relevant, we’d love your support!  
+- **Star this repository** or [EYWA Core](#) to show interest and help us prioritize.
+
+For those looking to explore, [Toddler](https://github.com/gersak/toddler) is a great place to start!
